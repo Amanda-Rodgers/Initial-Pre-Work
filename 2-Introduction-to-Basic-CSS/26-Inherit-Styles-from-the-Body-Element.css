@@ -1,0 +1,9 @@
+<!--I learned other elements will inherit the body element's styles.-->
+<style>
+  body {
+    background-color: black;
+    color: green;
+    font-family: monospace;
+  }
+</style>
+<h1>Hello World</h1>
