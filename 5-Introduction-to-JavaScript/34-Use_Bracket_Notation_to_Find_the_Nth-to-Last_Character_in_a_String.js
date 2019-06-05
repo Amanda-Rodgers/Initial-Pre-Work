@@ -7,4 +7,4 @@ var thirdToLastLetterOfFirstName = firstName[firstName.length - 3];
 var lastName = "Lovelace";
 
 // Only change code below this line
-var secondToLastLetterOfLastName = lastName[lastName.length -3];
+var secondToLastLetterOfLastName = lastName[lastName.length -2];
