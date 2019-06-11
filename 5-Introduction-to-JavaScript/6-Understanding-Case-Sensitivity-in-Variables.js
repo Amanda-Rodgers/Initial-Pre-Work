@@ -1,4 +1,4 @@
-<!-- I learned the proper way and reason to use camelCase-->
+//<!-- I learned the proper way and reason to use camelCase-->
 // Declarations
 var studlyCapVar;
 var properCamelCase;
