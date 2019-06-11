@@ -1,4 +1,4 @@
-<!--I learned how to store values with the assignment operator-->
+//<!--I learned how to store values with the assignment operator-->
 // Setup
 var a;
 var b = 2;
