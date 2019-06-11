@@ -1,15 +1,11 @@
-// I learned how to use the destructuring assignment to assign variables from an arrays
-const LOCAL_FORECAST = {
-  today: { min: 72, max: 83 },
-  tomorrow: { min: 73.3, max: 84.6 }
-};
-
-function getMaxOfTmrw(forecast) {
+// CORRECTED CODE: This file has correct code for this lesson, previously put different lesson's code into this file
+// I learned how to use the destructuring assignment to assign variables from arrays
+let a = 8, b = 6;
+(() => {
   "use strict";
   // change code below this line
-  const {tomorrow:{ max: maxOfTomorrow}} = forecast; // change this line
+  [a,b] = [b,a];
   // change code above this line
-  return maxOfTomorrow;
-}
-
-console.log(getMaxOfTmrw(LOCAL_FORECAST)); // should be 84.6
+})();
+console.log(a); // should be 6
+console.log(b); // should be 8
