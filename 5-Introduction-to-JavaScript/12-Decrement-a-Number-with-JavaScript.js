@@ -1,4 +1,4 @@
-<!-- I learned how to decrement a variable using the -- operator-->
+//<!-- I learned how to decrement a variable using the -- operator-->
 var myVar = 11;
 
 // Only change code below this line
